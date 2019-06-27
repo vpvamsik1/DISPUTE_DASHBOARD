@@ -1,0 +1,105 @@
+p{
+    text-align: right;
+    background-color: #004E83;
+    color: #ffffff;
+    padding: 20px 150px;
+    margin-bottom: 0px;
+}
+
+.btn{
+    background-color: #004E83;
+    border: 0px;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+/* .btn:click{
+    background-color:yellow;
+} */
+
+a{
+    background-color: #004E83;
+    color: #ffffff;
+    border-radius: 12px;
+}
+a:hover{
+    text-decoration: none;
+}
+
+#buttonGroup{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    border: 50px #004E83 solid;
+    border-top: none;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+#B1, #B2, #B3, #B5, #B6, #B7, #B9, #B10{
+    padding: 30px 0px;
+    width: 150px;
+}
+#B4, #B8, #B6{
+    padding: 18px 0px;
+    width: 150px;
+    /* margin-left: 50px; */
+}
+#B5, #B6, #B7, #B9, #B10, #B8{
+    margin-top: 10%;
+}
+@media (max-width: 991.98px) {
+    #buttonGroup{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border: 50px #004E83 solid;
+        border-top: none;
+        /* padding-top: 15%;
+        padding-bottom: 15%; */
+    }
+
+    #B1, #B2, #B3, #B4, #B5, #B6, #B7, #B9, #B10, #B8{
+        padding: 30px 0px;
+        width: 200px;
+        margin-bottom: 15px;
+        margin-top: 0px;
+    }
+    p{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 10%;
+    }
+
+}
+#close{
+    margin: 0px;
+    background-color: grey;
+    border-radius: 0px;
+
+}
+
+
+/* #B1{
+    margin-right: 50px;
+}
+#B2{
+    margin-right: 25px;
+}
+#B3{
+    margin-left: 25px;
+} */
+
+
+
+
+
+/* #B1{
+    margin-right: 10px;
+}
+
+#B4{
+    margin-left: 10px;
+} */

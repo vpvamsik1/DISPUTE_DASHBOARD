@@ -1,0 +1,59 @@
+#lo{
+    text-align: right;
+    background-color: #004E83;
+    color: white;
+    padding: 1.75% 15%;
+    margin-bottom: 0px;
+    
+}
+
+i{
+    color: #004E83;
+    text-align: center;
+    font-size: 400%;
+}
+.card{
+    border: none;
+}
+
+.card-body{
+    padding-bottom: 0px;
+}
+
+.card-text{
+    font-weight: 700;
+    text-align: center;
+    color: #004E83;
+   
+}
+a:hover{
+    text-decoration: none;
+}
+
+#iconGroup{
+    border: 40px solid #004E83;
+    border-top: none;
+    padding: 5% 1.75%;
+
+}
+
+.row2{
+    margin-top: 20%;
+}
+
+@media (max-width: 767.98px) { 
+
+    .card{
+        margin-top: 10%;
+    }
+
+    .nmTop{
+        margin-top: 0px;
+    }
+    .card-body{
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    
+
+ }

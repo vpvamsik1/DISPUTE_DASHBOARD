@@ -1,0 +1,23 @@
+#logOut{
+    color: #2196F3;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 0.3%;
+    cursor: pointer;
+}
+i{
+    background-color: #ffffff;
+    color: #2196F3;
+    font-size: 25px;
+    /* padding: 1% 1%; */
+}
+i:hover{
+    cursor: pointer;
+}
+a{
+    float: left;
+}
+nav{
+    /* background-color: black; */
+}
